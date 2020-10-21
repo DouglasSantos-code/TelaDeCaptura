@@ -29,7 +29,7 @@ section{
     padding: 20px;
     background-image: url('../figuras/people.jpg');
     background-size: cover;
-    overflow: hidden;             /*OVERFLOW:HIDDEN; ESTA FAZENDO MINHA IMAGEM PEGAR A DIV INTEIRA, PORQE O FLOAT-RIGHT DO FORM CONTAINER ESTAVA IMPEDINDO DELA APARECER*/  
+    overflow: hidden;              
 }
 
 .formContanier{
@@ -55,21 +55,20 @@ input, select{
     margin-bottom: 10px;
 }
 
-input[type="submit"]{        /*AQUI ESTOU MODIFICANDO APENAS OS INPUT DE TYPE SUBMIT*/
+input[type="submit"]{       
     color: white;
     background-color: #48C5CE;
     font-weight: bold;
 }
 
 select{
-    -webkit-appearance: none;           /*AQUI E PARA MUDAR A SETINHA DE SELECIONAR*/
+    -webkit-appearance: none;           
     -moz-appearance: none;
     appearance: none;
 
     background-image: url('../figuras/arrow.jpg');  
     
-                                                            /*AQUI E PRA POR A IMAGENS DA SETINHA, DEIXAR ELA SEM  
-                                                                REPETIR E AJUSTAR O POSICIONAMENTO DELA*/
+                                                          
     background-repeat: no-repeat;                               
     background-position: calc(100% - 10px) center;
 }
