@@ -3,7 +3,7 @@
 ## Demonstration
 <img src="./assets/demonstration.png">
 
-Para visualizar o app [clica aqui](https://douglassantos-code.github.io/Clone-app-ClubHouse/).
+Para visualizar o site [clica aqui](https://douglassantos-code.github.io/TelaDeCaptura/).
 
 ## Techs
 
